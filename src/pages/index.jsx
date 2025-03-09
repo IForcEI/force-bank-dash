@@ -1,3 +1,9 @@
-export { Dashboard } from "./dashboard/ui/dashboard";
-export { Transactions } from "./transactions/ui/transactions";
-export { Notfound } from "./notfound/ui/notfound"
+export { Accounts } from './Accounts/ui/Accounts'
+export { CreditCards } from './CreditCards/ui/CreditCards'
+export { Dashboard } from './Dashboard/ui/Dashboard'
+export { Home } from './Home/ui/Home'
+export { Investments } from './Investments/ui/Investments'
+export { Loans } from './Loans/ui/Loans'
+export { Notfound } from './NotFound/ui/NotFound'
+export { Services } from './Services/ui/Services'
+export { Transactions } from './Transactions/ui/Transactions'

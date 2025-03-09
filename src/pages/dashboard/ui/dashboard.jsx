@@ -1,6 +1,6 @@
 export const Dashboard = () => {
 	return (
-		<div className='Dashboard'>
+		<div className='dashboard'>
 			<h1>Dashboard</h1>
 			<p>
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat expedita

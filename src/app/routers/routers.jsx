@@ -1,6 +1,5 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import { Dashboard, Notfound, Transactions } from '../../pages'
-import { Home } from '../../pages/home'
+import { Dashboard, Home, Notfound, Transactions } from '/src/pages'
 
 const router = createBrowserRouter([
 	{
