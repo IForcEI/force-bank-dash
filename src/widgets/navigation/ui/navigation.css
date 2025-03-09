@@ -1,9 +1,9 @@
 .navigation {
-	width: 250px;
 	background-color: #fff;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	width: 250px;
 }
 
 .navigation__logo {
@@ -13,7 +13,7 @@
 
 .navigation__logo-title {
 	font-size: 25px;
-	color: #343C6A;
+	color: #343c6a;
 }
 
 .navigation__item {
@@ -24,11 +24,17 @@
 .navigation__list {
 	padding: 19px 10px;
 	list-style: none;
+	display: flex;
+	align-items: center;
+}
+
+.navigation__image-link {
+	margin-right: 26px;
 }
 
 .navigation__link {
 	text-decoration: none;
-	color: #B1B1B1;
+	color: #b1b1b1;
 	font-size: 18px;
 	font-weight: 500;
 }
