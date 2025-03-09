@@ -1,6 +1,5 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
 import {Dashboard, Transactions, Notfound} from "../../pages"
-import { Navigation, Header } from "../../widgets"
 import { Home } from "../../pages/home"
 
 const router = createBrowserRouter([
