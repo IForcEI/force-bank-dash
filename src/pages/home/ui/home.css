@@ -1,0 +1,8 @@
+.home {
+	display: flex;
+}
+
+.home__pages {
+	margin: 24px 40px 40px 40px;
+}
+

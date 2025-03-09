@@ -1,7 +1,10 @@
 import { Router } from "./routers"
+import "./App.css"
 
 export const App = () => {
 	return (
-			<Router />
+			<div className="App">
+				<Router />
+			</div>
 	)
 }
