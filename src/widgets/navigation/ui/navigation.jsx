@@ -10,7 +10,7 @@ export const Navigation = () => {
 			<ul className='navigation__item'>
 				<li className='navigation__list'>
 					<img
-						src='/src/shared/assets/img/navigation-icon/Dashboard.svg'
+						src='../../../shared/assets/img/navigation-icon/Dashboard.svg'
 						alt='Dashboard'
 						className='navigation__image-link'
 					/>
