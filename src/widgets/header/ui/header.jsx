@@ -9,7 +9,7 @@ export const Header = () => {
 				<div className='header__item'>
 					<img
 						className='header__serch-icon'
-						src='/src/shared/assets/img/header-ico/magnifying-glass 1.png'
+						src='/img/header-ico/magnifying-glass 1.png'
 						alt=''
 					/>
 					<input
@@ -19,20 +19,17 @@ export const Header = () => {
 					/>
 				</div>
 				<Link className='header__btn-settings' to='/Seting'>
-					<img
-						src='/src/shared/assets/img/header-ico/settings 1.png'
-						alt='Settings'
-					/>
+					<img src='/img/header-ico/settings 1.png' alt='Settings' />
 				</Link>
 				<Link className='header__btn-notifications' to='/notifications'>
 					<img
-						src='/src/shared/assets/img/header-ico/002-notification-1.png'
+						src='/img/header-ico/002-notification-1.png'
 						alt='Notification'
 					/>
 				</Link>
 				<img
 					className='header__user-image'
-					src='src/shared/assets/img/user-image/MaskGroup.png'
+					src='/img/user-image/MaskGroup.png'
 					alt='User Img'
 					width='60'
 					height='60'

@@ -10,7 +10,7 @@ export const Navigation = () => {
 			<ul className='navigation__item'>
 				<li className='navigation__list'>
 					<img
-						src='../../../shared/assets/img/navigation-icon/Dashboard.svg'
+						src='/img/navigation-icon/Dashboard.svg'
 						alt='Dashboard'
 						className='navigation__image-link'
 					/>
@@ -20,7 +20,7 @@ export const Navigation = () => {
 				</li>
 				<li className='navigation__list'>
 					<img
-						src='/src/shared/assets/img/navigation-icon/Transactions.svg'
+						src='/img/navigation-icon/Transactions.svg'
 						alt='Transactions'
 						className='navigation__image-link'
 					/>
@@ -30,7 +30,7 @@ export const Navigation = () => {
 				</li>
 				<li className='navigation__list'>
 					<img
-						src='/src/shared/assets/img/navigation-icon/Accounts.svg'
+						src='/img/navigation-icon/Accounts.svg'
 						alt='Accounts'
 						className='navigation__image-link'
 					/>
@@ -40,7 +40,7 @@ export const Navigation = () => {
 				</li>
 				<li className='navigation__list'>
 					<img
-						src='/src/shared/assets/img/navigation-icon/Investments.svg'
+						src='/img/navigation-icon/Investments.svg'
 						alt='Investments'
 						className='navigation__image-link'
 					/>
@@ -50,7 +50,7 @@ export const Navigation = () => {
 				</li>
 				<li className='navigation__list'>
 					<img
-						src='/src/shared/assets/img/navigation-icon/Credit-Cards.svg'
+						src='/img/navigation-icon/Credit-Cards.svg'
 						alt='Credit Cards'
 						className='navigation__image-link'
 					/>
@@ -60,7 +60,7 @@ export const Navigation = () => {
 				</li>
 				<li className='navigation__list'>
 					<img
-						src='/src/shared/assets/img/navigation-icon/Loans.svg'
+						src='/img/navigation-icon/Loans.svg'
 						alt='Loans'
 						className='navigation__image-link'
 					/>
@@ -70,7 +70,7 @@ export const Navigation = () => {
 				</li>
 				<li className='navigation__list'>
 					<img
-						src='/src/shared/assets/img/navigation-icon/Services.svg'
+						src='/img/navigation-icon/Services.svg'
 						alt='Services'
 						className='navigation__image-link'
 					/>
@@ -80,7 +80,7 @@ export const Navigation = () => {
 				</li>
 				<li className='navigation__list'>
 					<img
-						src='/src/shared/assets/img/navigation-icon/My-Privileges.svg'
+						src='/img/navigation-icon/My-Privileges.svg'
 						alt='My Privileges'
 						className='navigation__image-link'
 					/>
@@ -90,7 +90,7 @@ export const Navigation = () => {
 				</li>
 				<li className='navigation__list'>
 					<img
-						src='/src/shared/assets/img/navigation-icon/Setting.svg'
+						src='/img/navigation-icon/Setting.svg'
 						alt='Setting'
 						className='navigation__image-link'
 					/>
