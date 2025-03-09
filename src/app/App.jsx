@@ -1,10 +1,6 @@
-import { Router } from "./routers"
-import "./App.css"
+import './App.css'
+import { Router } from './routers'
 
 export const App = () => {
-	return (
-			<div className="App">
-				<Router />
-			</div>
-	)
+	return <Router />
 }

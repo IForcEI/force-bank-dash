@@ -20,21 +20,3 @@
 	margin: 0;
 	padding: 0;
 }
-
-.navigation__list {
-	padding: 19px 10px;
-	list-style: none;
-	display: flex;
-	align-items: center;
-}
-
-.navigation__image-link {
-	margin-right: 26px;
-}
-
-.navigation__link {
-	text-decoration: none;
-	color: #b1b1b1;
-	font-size: 18px;
-	font-weight: 500;
-}

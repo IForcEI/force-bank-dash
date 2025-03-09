@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom'
+import { NavigationLink } from '../../../features/NavigationLink'
 import './navigation.css'
 
 export const Navigation = () => {
@@ -8,96 +8,60 @@ export const Navigation = () => {
 				<h1 className='navigation__logo-title'>BankDash.</h1>
 			</div>
 			<ul className='navigation__item'>
-				<li className='navigation__list'>
-					<img
-						src='/img/navigation-icon/Dashboard.svg'
-						alt='Dashboard'
-						className='navigation__image-link'
-					/>
-					<NavLink className='navigation__link' to='/Dashboard'>
-						Dashboard
-					</NavLink>
-				</li>
-				<li className='navigation__list'>
-					<img
-						src='/img/navigation-icon/Transactions.svg'
-						alt='Transactions'
-						className='navigation__image-link'
-					/>
-					<NavLink className='navigation__link' to='/Transactions'>
-						Transactions
-					</NavLink>
-				</li>
-				<li className='navigation__list'>
-					<img
-						src='/img/navigation-icon/Accounts.svg'
-						alt='Accounts'
-						className='navigation__image-link'
-					/>
-					<NavLink className='navigation__link' to='/Accounts'>
-						Accounts
-					</NavLink>
-				</li>
-				<li className='navigation__list'>
-					<img
-						src='/img/navigation-icon/Investments.svg'
-						alt='Investments'
-						className='navigation__image-link'
-					/>
-					<NavLink className='navigation__link' to='/Investments'>
-						Investments
-					</NavLink>
-				</li>
-				<li className='navigation__list'>
-					<img
-						src='/img/navigation-icon/Credit-Cards.svg'
-						alt='Credit Cards'
-						className='navigation__image-link'
-					/>
-					<NavLink className='navigation__link' to='/Credit-Cards'>
-						Credit Cards
-					</NavLink>
-				</li>
-				<li className='navigation__list'>
-					<img
-						src='/img/navigation-icon/Loans.svg'
-						alt='Loans'
-						className='navigation__image-link'
-					/>
-					<NavLink className='navigation__link' to='/Loans'>
-						Loans
-					</NavLink>
-				</li>
-				<li className='navigation__list'>
-					<img
-						src='/img/navigation-icon/Services.svg'
-						alt='Services'
-						className='navigation__image-link'
-					/>
-					<NavLink className='navigation__link' to='/Services'>
-						Services
-					</NavLink>
-				</li>
-				<li className='navigation__list'>
-					<img
-						src='/img/navigation-icon/My-Privileges.svg'
-						alt='My Privileges'
-						className='navigation__image-link'
-					/>
-					<NavLink className='navigation__link' to='/My-Privileges'>
-						My Privileges
-					</NavLink>
-				</li>
-				<li className='navigation__list'>
-					<img
-						src='/img/navigation-icon/Setting.svg'
-						alt='Setting'
-						className='navigation__image-link'
-					/>
-					<NavLink className='navigation__link' to='/Setting'>
-						Setting
-					</NavLink>
-				</li>
+				<NavigationLink
+					icon={'Dashboard.svg'}
+					iconAlt={'Dashboard'}
+					to={'/Dashboard'}
+					title={'Dashboard'}
+				/>
+				<NavigationLink
+					icon={'Transactions.svg'}
+					iconAlt={'Transactions'}
+					to={'/Transactions'}
+					title={'Transactions'}
+				/>
+				<NavigationLink
+					icon={'Accounts.svg'}
+					iconAlt={'Accounts'}
+					to={'/Accounts'}
+					title={'Accounts'}
+				/>
+				<NavigationLink
+					icon={'Investments.svg'}
+					iconAlt={'Investments'}
+					to={'/Investments'}
+					title={'Investments'}
+				/>
+				<NavigationLink
+					icon={'CreditCards.svg'}
+					iconAlt={'CreditCards'}
+					to={'/CreditCards'}
+					title={'CreditCards'}
+				/>
+				<NavigationLink
+					icon={'Loans.svg'}
+					iconAlt={'Loans'}
+					to={'/Loans'}
+					title={'Loans'}
+				/>
+				<NavigationLink
+					icon={'Services.svg'}
+					iconAlt={'Services'}
+					to={'/Services'}
+					title={'Services'}
+				/>
+				<NavigationLink
+					icon={'MyPrivileges.svg'}
+					iconAlt={'MyPrivileges'}
+					to={'/MyPrivileges'}
+					title={'MyPrivileges'}
+				/>
+				<NavigationLink
+					icon={'Setting.svg'}
+					iconAlt={'Setting'}
+					to={'/Setting'}
+					title={'Setting'}
+				/>
 			</ul>
 		</div>
 	)
