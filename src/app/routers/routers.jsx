@@ -1,47 +1,59 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import * as Pages from '/src/pages'
+import {
+	Accounts,
+	CreditCards,
+	Dashboard,
+	Home,
+	Investments,
+	Loans,
+	MyPrivileges,
+	Notfound,
+	Services,
+	Setting,
+	Transactions,
+} from '/src/pages/index.jsx'
 
 const router = createBrowserRouter([
 	{
 		path: '/',
-		element: <Pages.Home />,
-		errorElement: <Pages.Notfound />,
+		element: <Home />,
+		errorElement: <Notfound />,
 		children: [
 			{
 				path: '/Dashboard',
-				element: <Pages.Dashboard />,
+				element: <Dashboard />,
 			},
 			{
 				path: '/Transactions',
-				element: <Pages.Transactions />,
+				element: <Transactions />,
 			},
 			{
 				path: '/Accounts',
-				element: <Pages.Accounts />,
+				element: <Accounts />,
 			},
 			{
 				path: '/Investments',
-				element: <Pages.Investments />,
+				element: <Investments />,
 			},
 			{
 				path: '/CreditCards',
-				element: <Pages.CreditCards />,
+				element: <CreditCards />,
 			},
 			{
 				path: '/Loans',
-				element: <Pages.Loans />,
+				element: <Loans />,
 			},
 			{
 				path: '/Services',
-				element: <Pages.Services />,
+				element: <Services />,
 			},
 			{
 				path: '/MyPrivileges',
-				element: <Pages.MyPrivileges />,
+				element: <MyPrivileges />,
 			},
 			{
 				path: '/Setting',
-				element: <Pages.Setting />,
+				element: <Setting />,
 			},
 		],
 	},
