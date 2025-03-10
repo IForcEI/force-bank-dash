@@ -1,1 +1,1 @@
-export { CreditCards } from './ui/CreditCards'
+export { CreditCards } from './ui/CreditCards.jsx'

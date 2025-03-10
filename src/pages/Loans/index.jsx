@@ -1,1 +1,1 @@
-export { Loans } from './ui/Loans'
+export { Loans } from './ui/Loans.jsx'

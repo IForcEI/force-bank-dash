@@ -1,1 +1,1 @@
-export { MyPrivileges } from './ui/MyPrivileges'
+export { MyPrivileges } from './ui/MyPrivileges.jsx'

@@ -1,1 +1,1 @@
-export { Accounts } from './ui/Accounts'
+export { Accounts } from './ui/Accounts.jsx'

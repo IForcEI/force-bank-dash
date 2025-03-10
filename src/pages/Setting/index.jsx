@@ -1,1 +1,1 @@
-export { Setting } from './ui/Setting'
+export { Setting } from './ui/Setting.jsx'

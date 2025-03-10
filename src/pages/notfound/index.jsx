@@ -1,1 +1,1 @@
-export { Notfound } from './ui/NotFound'
+export { Notfound } from './ui/NotFound.jsx'
