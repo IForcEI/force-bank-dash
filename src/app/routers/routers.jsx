@@ -1,8 +1,8 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { Dashboard } from '../../pages/Dashboard/ui/Dashboard'
 import {
 	Accounts,
 	CreditCards,
-	Dashboard,
 	Home,
 	Investments,
 	Loans,
