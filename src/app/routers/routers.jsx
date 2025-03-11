@@ -11,7 +11,7 @@ import {
 	Services,
 	Setting,
 	Transactions,
-} from '../../pages/index'
+} from '../../pages'
 
 const router = createBrowserRouter([
 	{

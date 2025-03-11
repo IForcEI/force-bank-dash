@@ -1,19 +1,19 @@
-// import { useEffect } from 'react'
-import { Outlet } from 'react-router-dom' // useNavigate
+import { useEffect } from 'react'
+import { Outlet, useNavigate } from 'react-router-dom'
 import { Header, Navigation } from '../../../widgets'
 import './Home.css'
 
 export const Home = () => {
-	// const router = useNavigate()
+	const router = useNavigate()
 
 	// Xуки работают с компанентами
 	// Разобрать! все что ниже
 
-	// useEffect(() => {
-	// 	router('/Dashboard', { replace: true })
+	useEffect(() => {
+		router('/Dashboard', { replace: true })
 
-	// 	return () => {}
-	// }, [router])
+		return () => {}
+	}, [router])
 
 	return (
 		<div className='home'>
