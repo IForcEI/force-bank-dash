@@ -10,7 +10,7 @@ export const Home = () => {
 	// Разобрать! все что ниже
 
 	useEffect(() => {
-		router('/Dashboard', { replace: true })
+		router('/Accounts', { replace: true })
 
 		return () => {}
 	}, [router])
