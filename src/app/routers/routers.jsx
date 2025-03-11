@@ -1,17 +1,15 @@
+import { Accounts } from '@pages/Accounts/ui/Accounts'
+import { CreditCards } from '@pages/CreditCards/ui/CreditCards'
+import { Dashboard } from '@pages/Dashboard/ui/Dashboard'
+import { Home } from '@pages/Home/ui/Home'
+import { Investments } from '@pages/Investments/ui/Investments'
+import { Loans } from '@pages/Loans/ui/Loans'
+import { MyPrivileges } from '@pages/MyPrivileges/ui/MyPrivileges'
+import { Notfound } from '@pages/Notfound/ui/Notfound'
+import { Services } from '@pages/Services/ui/Services'
+import { Setting } from '@pages/Setting/ui/Setting'
+import { Transactions } from '@pages/Transactions/ui/Transactions'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import {
-	Accounts,
-	CreditCards,
-	Dashboard,
-	Home,
-	Investments,
-	Loans,
-	MyPrivileges,
-	Notfound,
-	Services,
-	Setting,
-	Transactions,
-} from '../../pages'
 
 const router = createBrowserRouter([
 	{
